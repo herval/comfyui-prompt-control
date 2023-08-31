@@ -45,7 +45,7 @@ def handle_wildcard_node(json_data, node_id):
     return json_data
 
 
-PromptServer.instance.add_on_prompt_handler(wildcard_prompt_handler)
+# PromptServer.instance.add_on_prompt_handler(wildcard_prompt_handler)
 
 
 def variable_substitution(text):
